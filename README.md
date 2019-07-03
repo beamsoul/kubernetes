@@ -1,2 +1,3 @@
 # kubernetes
-this is repository consist all my kubernetes projects
+WELCOME TO WORLD OF KUBERNETES!
+This file consist all projects related to Kubernetes
