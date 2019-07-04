@@ -3,16 +3,16 @@
 A Kubernetes pod is a group of containers that are deployed together on the same host. If you frequently deploy single containers, you can generally replace the word "pod" with "container" and accurately understand the concept.
 here some examples what we have covered in April class Projects 
 
-benchmarker-ds.yaml
+# benchmarker-ds.yaml
 
 here some steps for deployment 
 
 Vim benchmarker-ds.yaml
 
-#git add .
+git add .
 
 
-#git commit -a -m "it creates one pod in each nodes"
+git commit -a -m "it creates one pod in each nodes"
 
 git push origin master
 
