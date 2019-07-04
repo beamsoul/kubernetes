@@ -5,9 +5,9 @@ here some examples what we have covered in April class Projects
 benchmarker-ds.yaml
 here some steps for deployment 
 Vim benchmarker-ds.yaml
-###git add .
-###git commit -a -m "it creates one pod in each nodes"
-###git push origin master
+                  ###git add .
+                  ###git commit -a -m "it creates one pod in each nodes"
+                  ###git push origin master
 ###kubectl create -f benchmarker-ds.yaml
 ##kubectl get daemonsets
 ###kubectl get ds
