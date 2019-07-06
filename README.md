@@ -5,9 +5,9 @@ here some examples what we have covered in April class Projects
 
 # benchmarker-ds.yaml
 
-here some steps for deployment 
+***here some steps for deployment**
 
-Vim benchmarker-ds.yaml
+**im benchmarker-ds.yaml**
 
 git add .
 
@@ -20,14 +20,14 @@ kubectl create -f benchmarker-ds.yaml
 
 ubectl get daemonsets
 
-kubectl get ds
+# kubectl get ds
 
-kubectl pods -o wide | grep brenchmarker
+## kubectl pods -o wide | grep brenchmarker
 
 
-kubectl expose daemonset benchmarker-ds --type=NodePort
+#### kubectl expose daemonset benchmarker-ds --type=NodePort
 
-kubectl expose daemonset benchmarker-ds-zbnzn --type=NodePort
+#####kubectl expose daemonset benchmarker-ds-zbnzn --type=NodePort
 
 kubectl expose pods benchmarker-ds-zbnzn --type=NodePort
 
