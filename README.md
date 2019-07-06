@@ -33,4 +33,31 @@ kubectl expose pods benchmarker-ds-zbnzn --type=NodePort
 
 kubectl get services  (this is the last step when we can test it, we can use external ip by giving a command kubectl pods -o wide to see all internal and external IPS
 
+KUARD-RS-TEST.YAML
+kubectl create -f kuard-rs-test.yaml
+ 
+   
+   git pull origin master
+   
+  kubectl create -f kuard-rs-test.yaml
+  
+  kubectl get rs
+  
+  kubectl autoscale rs kuard-rs-test --name=kuard-rs-test-hpa --min=2 --max=20 --cpu-percent=50
+  
+  kubectl get hpa
+  
+  kubectl expose rs kuard-rs-test.yaml --type=NodePort
+
+kubectl get nodes -wide
+ 
+kubectl get nodes -o wide
+
+ kubectl get services
+ 
+  kubectl get pods
+  
+   kubectl top pods
+   
+ DEPENDING ON MY CPU USAGE 
 
