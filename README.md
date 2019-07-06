@@ -43,7 +43,7 @@ kubectl create -f kuard-rs-test.yaml
   
   kubectl get rs
   
-  kubectl autoscale rs kuard-rs-test --name=kuard-rs-test-hpa --min=2 --max=20 --cpu-percent=50
+  kubectl autoscale rs kuard-rs-test --name=kuard-rs-test-hpa --min=2 --max=20 --cpu-percent=50 # 
   
   kubectl get hpa
   
