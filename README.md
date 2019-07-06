@@ -33,7 +33,7 @@ kubectl expose pods benchmarker-ds-zbnzn --type=NodePort
 
 kubectl get services  (this is the last step when we can test it, we can use external ip by giving a command kubectl pods -o wide to see all internal and external IPS
 
-KUARD-RS-TEST.YAML
+# KUARD-RS-TEST.YAML
 kubectl create -f kuard-rs-test.yaml
  
    
